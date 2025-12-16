@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Daily Word</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>🌍 Daily Word</h1>
+
+    <div id="word-box">
+      <p class="language" id="language"></p>
+      <h2 id="word"></h2>
+      <p class="pronunciation" id="pronunciation"></p>
+      <p class="meaning" id="meaning"></p>
+      <p class="etymology" id="etymology"></p>
+    </div>
+
+    <p class="date" id="date"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
