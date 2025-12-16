@@ -1,0 +1,42 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+main {
+  max-width: 500px;
+  text-align: center;
+}
+
+#word-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.language {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.pronunciation {
+  font-style: italic;
+  color: #444;
+}
+
+.etymology {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.date {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #888;
+}
