@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Daily Word</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Random Word</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <h1>🌍 Daily Word</h1>
 
-    <div id="word-box">
-      <p class="language" id="language"></p>
-      <h2 id="word"></h2>
-      <p class="pronunciation" id="pronunciation"></p>
-      <p class="meaning" id="meaning"></p>
-      <p class="etymology" id="etymology"></p>
-    </div>
+<h1 id="word">Loading...</h1>
+<h2 id="language">English</h2>
+<p><strong>Part of speech:</strong> <span id="pos"></span></p>
+<p><strong>Definition:</strong> <span id="definition"></span></p>
+<button id="new-word">New Word</button>
 
-    <p class="date" id="date"></p>
-  </main>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
