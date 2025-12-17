@@ -1,42 +1,101 @@
+html, body {
+  margin: 10px;
+  padding: 0;
+  min-height: 100vh;
+}
+
 body {
-  font-family: system-ui, sans-serif;
-  background: #f9f9f9;
-  color: #222;
+  font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  align-items: flex-start;
+  background-color: #F5EDE6;
 }
 
-main {
-  max-width: 500px;
+.container {
+  width: 100%;
+  max-width: 1020px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 4px solid #BAA99B;
+  border-radius: 20px;
+  background-color: #F5EDE6;
+}
+
+button {
+  font-family: Century Gothic, sans-serif;
+  color: #615245;
+  margin-top: 15px;
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #E8DCD1;
+  border: 2px solid #BAA99B;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: Century Gothic, sans-serif;
+  color: #615245;
+  font-size: 32px;
   text-align: center;
+  margin-bottom: 5px;
 }
 
-#word-box {
-  background: white;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+h2 {
+  font-family: Calibri, sans-serif;
+  font-size: 24px;
+  margin-top: 5px;
+  color: #453930;
 }
 
-.language {
-  font-size: 0.9rem;
-  color: #666;
+p {
+  font-size: 18px;
+  color: #F7EFE9;
+  background-color: #948375;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-.pronunciation {
-  font-style: italic;
-  color: #444;
+.definition-box {
+  background-color: #948375;
+  color: #F7EFE9;
+  border-radius: 12px;
+  padding: 15px;
+  margin-top: 15px;
 }
 
-.etymology {
-  margin-top: 1rem;
-  font-size: 0.9rem;
-  color: #555;
+.definition-box h3 {
+  margin-top: 0;
+  font-family: Century Gothic, sans-serif;
+  font-size: 20px;
 }
 
-.date {
-  margin-top: 1rem;
-  font-size: 0.8rem;
-  color: #888;
+.definition-box ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.definition-box li {
+  margin-bottom: 10px;
+}
+
+.definition-box em {
+  display: block;
+  opacity: 0.9;
+  margin-top: 5px;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
 }
